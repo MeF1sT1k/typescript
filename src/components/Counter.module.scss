@@ -1,0 +1,28 @@
+.counter {
+    // border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.buttons {
+    // border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.increment {
+    color: rgb(5, 199, 5)
+}
+
+.decrement {
+    color: red
+}
+
+.increment, .decrement {
+    font-size: 17px;
+    padding: 5px
+}
