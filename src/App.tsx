@@ -1,7 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom";
 import { AboutPageAsync } from "./pages/AboutPage/AboutPage.async";
 import { MainPageAsync } from "./pages/MainPage/MainPage.async";
-import { Suspense, useState } from "react";
+import { Suspense } from "react";
 import "./styles/index.scss";
 import { useTheme } from "./theme/useTheme";
 import { classNames } from "./helpers/classNames/classNames";
