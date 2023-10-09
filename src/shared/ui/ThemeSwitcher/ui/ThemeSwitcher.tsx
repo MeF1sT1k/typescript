@@ -5,8 +5,6 @@ import LightIcon from "shared/assets/icons/theme_light.svg";
 import DarkIcon from "shared/assets/icons/theme_dark.svg";
 import { Button, ThemeButton } from "shared/ui/Button/Button";
 
-import AccountCircle from "shared/assets/icons/account_circle.png";
-
 interface ThemeSwitcherProps {
     className?: string;
 }
