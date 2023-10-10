@@ -1,14 +1,15 @@
 .sidebar {
     height: calc(100vh - var(--navbar-height));
-    width: var(--sidebar-width);
+    width: var(--sidebar-width-collapsed);
     background: var(--inverted-bg-color);
 
     position: relative;
     transition: width .25s ease;
+
 }
 
-.collapsed {
-    width: var(--sidebar-width-collapsed);
+.sidebar:hover {
+    width: var(--sidebar-width);
 }
 
 .switchers {
@@ -18,7 +19,6 @@
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
-    transition: flex .5s ease;
     overflow: hidden;
 }
 
