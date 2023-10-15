@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 module.exports = {
     env: {
         browser: true,
@@ -39,6 +40,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 0,
         'no-underscore-dangle': 0,
         'linebreak-style': [0, 'LF'],
+        'max-len': [2, { ignoreComments: true }],
     },
     globals: {
         __IS_DEV__: true,
