@@ -2,5 +2,15 @@
     "css.validate": false,
     "less.validate": false,
     "scss.validate": false,
-    "stylelint.validate": ["css", "scss"]
+    "stylelint.validate": [
+        "css",
+        "scss"
+    ],
+    "i18n-ally.localesPaths": [
+        "public/locales",
+        "src/shared/config/i18n"
+    ],
+    "i18n-ally.keystyle": "flat",
+    "i18n-ally.enabledFrameworks": ["i18next", "react"],
+
 }

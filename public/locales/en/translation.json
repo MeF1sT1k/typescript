@@ -1,6 +1,6 @@
 {
-    "Язык": "Russian",
-    "Главная": "Main",
-    "О сайте": "About",
-    "Загружаюсь...": "Loading..."
+  "Language": "RU",
+  "MainLink": "Main",
+  "AboutLink": "About",
+  "Loading": "Loading..."
 }

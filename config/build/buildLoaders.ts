@@ -31,6 +31,7 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
                         {
                             locales: ['ru', 'en'],
                             keyAsDefaultValue: true,
+                            discardOldKeys: true,
                         },
                     ],
                 ],

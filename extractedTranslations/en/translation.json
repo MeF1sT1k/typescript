@@ -1,20 +1,9 @@
 {
-  "Loading": {
-    "": {
-      "": {
-        "": ""
-      }
-    }
-  },
-  "Главная": "Главная",
-  "Главная страница": "Главная страница",
-  "Загружаюсь": {
-    "": {
-      "": {
-        "": ""
-      }
-    }
-  },
-  "О сайте": "О сайте",
-  "Язык": "Язык"
+  "AboutLink": "AboutLink",
+  "AboutPage": "AboutPage",
+  "ErrorMessage": "ErrorMessage",
+  "Language": "Language",
+  "MainLink": "MainLink",
+  "MainPage": "MainPage",
+  "PageNotFound": "PageNotFound"
 }

@@ -1,14 +1,10 @@
 .sidebar {
     height: calc(100vh - var(--navbar-height));
-    width: var(--sidebar-width-collapsed);
+    width: var(--sidebar-width);
     background: var(--inverted-bg-color);
     position: relative;
     transition: width .25s ease;
 
-}
-
-.sidebar:hover {
-    width: var(--sidebar-width);
 }
 
 .switchers {
@@ -21,6 +17,7 @@
     overflow: hidden;
 }
 
-// .lang {
-//     margin-left: 20px;
-// }
+.collapsed {
+    width: var(--sidebar-width-collapsed);
+}
+

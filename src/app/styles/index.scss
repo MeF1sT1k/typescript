@@ -3,10 +3,14 @@
 @import "themes/light";
 @import "themes/dark";
 
+iframe {
+    display: none;
+}
+
 .app {
     font: var(--font-l);
     background: var(--bg-color);
-    color: var(--primary-color) ;
+    color: var(--secondary-color) ;
     min-height: 100vh;
 }
 

@@ -40,7 +40,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 0,
         'no-underscore-dangle': 0,
         'linebreak-style': [0, 'LF'],
-        'max-len': [2, { ignoreComments: true }],
+        'max-len': [2, { ignoreComments: true, code: 100 }],
     },
     globals: {
         __IS_DEV__: true,
